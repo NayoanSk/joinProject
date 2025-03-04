@@ -9,7 +9,9 @@ ul, ol{
 a{
     text-decoration: none;
 }
-
+.heading{
+    color: brown;
+}
 .calDiv{
     margin: 20px auto;
     width: 250px;
