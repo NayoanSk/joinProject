@@ -142,7 +142,7 @@ for(let i = 0; i <player.length; i++){
 function htmlFunc(playerData){
     let {Id, ImgLink, Name, Bating, Respon, Average, Matches, Devue} = playerData;
     let htmlText = `
-        <div id="root">
+        <div class="roots">
             <img src="${ImgLink}" alt="">
             <h2>${Name}</h2>
             <h3>${Bating}</h3>

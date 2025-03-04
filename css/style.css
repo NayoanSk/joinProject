@@ -9,6 +9,18 @@ ul, ol{
 a{
     text-decoration: none;
 }
+
+#newText{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.roots img{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
 .heading{
     color: brown;
 }
@@ -88,6 +100,7 @@ a{
     padding: 5px;
     cursor: pointer;
 }
+
 #root{
     display: flex;
     justify-content: space-between;
