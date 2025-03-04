@@ -41,8 +41,9 @@ let newFun5 = (a, b)=> a+b;
 console.log(newFun5(15, 20));
 // array destructure
 let players = ["Sakib", "Kamal", "Rahim", "Sujon"];
-let [sa, ka, ra, su] = players;
-console.log(ka);
+// let [sa, ka, ra, su] = players;
+let [, ka, , su] = players;
+console.log(su);
 //
 let playInfo = {
     name : "Sakib",
@@ -61,3 +62,5 @@ const playersss = ({hobby})=>{
     console.log(photography);
 }
 playersss(playInfo);
+
+
