@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.calDiv{
+    margin: 20px auto;
+    width: 250px;
+    border: 1px solid grey;
+    padding: 10px;
+    background: grey;
+}
+.calDiv input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.btns{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.btns button{
+    padding: 5px;
+    cursor: pointer;
+}
+
+#newPlan{
+    background: rgb(98, 130, 98);
+}
+#crossBtn{
+    cursor: pointer;
+}
+/*  */
+.products{
+    width: 300px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.products img{
+    width: 100%;
+    height: 220px;
+    display: block;
+}
+.products h2{
+    margin: 10px 0;
+}
+.products p{
+    margin: 10px 0;
+    text-align: justify;
+}
+.products a button{
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+}
+/*  */
+.playerDetails{
+    width: 300px;
+    border: 1px solid grey;
+    padding: 10px;
+    background: rgb(229, 220, 220);
+    border-radius: 10px;
+}
+.playerDetails input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.playerDetails  button{
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+#root{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.testingdiv{
+    width: 200px;
+    margin: 20px auto;
+}
