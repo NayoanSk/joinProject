@@ -8,3 +8,4 @@ console.log(productTitle.toLocaleUpperCase());
 console.log(productTitle.slice(4, 8));
 console.log(productTitle.includes("our"));
 console.log(productTitle.includes("Our"));
+console.log(productTitle.includes("country"));
